@@ -12,6 +12,8 @@ Static HTML/CSS/JavaScript website prepared for GitHub and Netlify. The approved
 - `thank-you.html` — successful contact-form destination
 - `netlify.toml` — publishes the repository root with no build step
 
+The project-inquiry form is configured for Netlify Forms. After deployment, add an email form-submission notification for `cpohl@cocommercialcooling.com` in Netlify. The exact setup steps are in the deployment guide.
+
 ## Preview locally
 
 Opening `index.html` directly works, but a local web server gives the most accurate preview:
@@ -32,4 +34,3 @@ The Netlify settings for this package are:
 - Base directory: leave blank
 - Build command: leave blank
 - Publish directory: `.`
-

@@ -79,7 +79,7 @@ Use the record values displayed in the Netlify dashboard rather than copying add
 
 ## 5. Enable and test Netlify Forms
 
-The form in `contact.html` is named `project-inquiry`, includes spam-honeypot protection, accepts one optional project file, and directs successful submissions to `thank-you.html`.
+The form in `contact.html` is named `project-inquiry`, includes spam-honeypot protection, accepts one optional project file, uses the subject line **New Colorado Commercial Cooling Systems project inquiry**, and directs successful submissions to `thank-you.html`.
 
 1. Deploy the site at least once with the form included.
 2. In the Netlify project, open **Forms**.
@@ -89,10 +89,12 @@ The form in `contact.html` is named `project-inquiry`, includes spam-honeypot pr
 6. Confirm that the browser reaches the thank-you page.
 7. Return to **Forms** and confirm that every field appears in the submission, including phone number and required timeframe.
 8. Submit a second test with a small supported attachment and confirm that it is available in the submission. For large plan sets, place a secure document-sharing link in the project description and review the current limits for the selected Netlify plan.
-9. Configure submission email notifications in the Forms settings and send one more test after saving the recipient address.
-10. Review spam settings and delete the test submissions when finished.
+9. Open **Project configuration > Notifications > Emails and webhooks > Form submission notifications**.
+10. Add an email notification for the `project-inquiry` form and enter **cpohl@cocommercialcooling.com** as the recipient.
+11. Save the notification, submit one more live test, and confirm that the email arrives at `cpohl@cocommercialcooling.com`. The submitter's address is captured in a field named `email`, so Netlify can use it as the notification's reply-to address.
+12. Review spam settings and delete the test submissions when finished.
 
-If the form is not detected, verify that form detection is enabled, redeploy the site, and confirm that `contact.html` still contains `data-netlify="true"` and the hidden `form-name` input. Netlify's official setup reference is [Forms setup](https://docs.netlify.com/manage/forms/setup/).
+If the form is not detected, verify that form detection is enabled, redeploy the site, and confirm that `contact.html` still contains `data-netlify="true"` and the hidden `form-name` input. Netlify's official references are [Forms setup](https://docs.netlify.com/manage/forms/setup/) and [Form notifications](https://docs.netlify.com/manage/forms/notifications/).
 
 ## 6. Publish later updates
 
@@ -105,4 +107,3 @@ git push
 ```
 
 Netlify will create a new deploy from the pushed commit. Review the deploy log and live site after each update.
-

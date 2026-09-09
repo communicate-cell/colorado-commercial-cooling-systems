@@ -38,10 +38,10 @@ button, input, textarea, select { font: inherit; }
 .brand-image-link { overflow: hidden; }
 .brand-logo { width: auto; height: 74px; object-fit: contain; }
 .desktop-nav { margin-left: auto; display: flex; align-items: center; gap: 22px; }
-.desktop-nav a { color: #cad5db; font-size: 11px; font-weight: 700; white-space: nowrap; transition: color .2s; }
+.desktop-nav a { color: #cad5db; font-size: 13px; font-weight: 700; white-space: nowrap; transition: color .2s; }
 .desktop-nav a:hover { color: #fff; }
 .desktop-nav a.nav-accent, .mobile-nav a.nav-accent { color: var(--orange); }
-.header-cta { min-height: 42px; padding: 0 16px; display: inline-flex; align-items: center; gap: 12px; color: var(--navy); background: var(--orange); font-size: 11px; font-weight: 800; white-space: nowrap; }
+.header-cta { min-height: 42px; padding: 0 16px; display: inline-flex; align-items: center; gap: 12px; color: var(--navy); background: var(--orange); font-size: 12px; font-weight: 800; white-space: nowrap; }
 .menu-button { display: none; margin-left: auto; padding: 8px; color: #fff; background: none; border: 0; }
 .mobile-nav { padding: 16px 24px 26px; display: grid; border-top: 1px solid rgba(255,255,255,.1); }
 .mobile-nav a { padding: 13px 0; color: #dbe3e7; border-bottom: 1px solid rgba(255,255,255,.1); font-size: 14px; }
@@ -276,7 +276,7 @@ button, input, textarea, select { font: inherit; }
 /* Responsive */
 @media (max-width: 1180px) {
   .desktop-nav { gap: 14px; }
-  .desktop-nav a { font-size: 10px; }
+  .desktop-nav a { font-size: 11px; }
   .header-cta { display: none; }
   .home-partner-grid { grid-template-columns: 1fr 1fr; }
   .partner-message { grid-column: 1 / -1; }
@@ -290,7 +290,7 @@ button, input, textarea, select { font: inherit; }
 
 @media (max-width: 1280px) and (min-width: 901px) {
   .desktop-nav { gap: 13px; }
-  .desktop-nav a { font-size: 9px; }
+  .desktop-nav a { font-size: 11px; }
   .header-cta { display: none; }
 }
 
