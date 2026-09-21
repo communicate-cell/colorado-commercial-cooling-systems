@@ -10,6 +10,10 @@ Static HTML/CSS/JavaScript website prepared for GitHub and Netlify. The approved
 - `js/site.js` — responsive navigation behavior
 - `images/` — local image and logo assets
 - `thank-you.html` — successful contact-form destination
+- `qualifications-preview.html` — unlinked, no-index qualifications concept for review before public release
+- `robots.txt` and `sitemap.xml` — search-engine discovery files
+- `SEO-LAUNCH-CHECKLIST.md` — Google Business Profile, Search Console, and link-building steps
+- `SEO-KEYWORD-MAP.md` — ranked 50-phrase keyword plan and page assignments
 - `netlify.toml` — publishes the repository root with no build step
 
 The project-inquiry form is configured for Netlify Forms. After deployment, add an email form-submission notification for `cpohl@cocommercialcooling.com` in Netlify. The exact setup steps are in the deployment guide.
@@ -26,7 +30,7 @@ Then open `http://localhost:8000`.
 
 ## Publish
 
-Follow [NETLIFY-DEPLOYMENT-GUIDE.md](NETLIFY-DEPLOYMENT-GUIDE.md) to create the GitHub repository, connect it to Netlify, configure the custom domain, and test the project-inquiry form.
+Follow [NETLIFY-DEPLOYMENT-GUIDE.md](NETLIFY-DEPLOYMENT-GUIDE.md) to create the GitHub repository, connect it to Netlify, configure the custom domain, and test the project-inquiry form. After the custom domain is live, follow [SEO-LAUNCH-CHECKLIST.md](SEO-LAUNCH-CHECKLIST.md) to connect Google Business Profile and Search Console.
 
 The Netlify settings for this package are:
 
