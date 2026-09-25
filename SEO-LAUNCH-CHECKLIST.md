@@ -13,7 +13,7 @@ Only create a separate profile for Colorado Commercial Cooling Systems if the co
 5. Select the most accurate primary category offered by Google, likely **HVAC contractor**. Add other accurate categories only if they describe services actually provided.
 6. Enter the real operating address for verification. If customers do not visit that location, configure the company as a service-area business and hide the street address from the public profile.
 7. Add only the cities or regions the team genuinely serves. Do not use a false address or create separate profiles for cities without staffed locations.
-8. Add the authoritative phone number, **(720) 625-3993**, and website, `https://cocommercialcooling.com/`.
+8. Add the authoritative phone number, **(720) 773-9796**, and website, `https://cocommercialcooling.com/`.
 9. Complete the verification method Google offers. Google decides whether this is video, phone, email, live video, or mail.
 10. After verification, add the approved logo, real project photographs, service descriptions, business hours, and the project-inquiry URL, `https://cocommercialcooling.com/contact.html`.
 11. Keep the name, phone, website, and service information consistent with the website and other reputable company listings.
